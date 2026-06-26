@@ -1,0 +1,47 @@
+name: fynn
+description: "Fynn — Private AI CFO for small business owners on the Atsign Platform."
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Atsign Platform
+  at_client_flutter: ^1.0.1
+  at_client: ^3.11.0
+  at_auth: ^3.1.0
+
+  # File & storage
+  file_picker: ^11.0.2
+  path_provider: ^2.1.3
+  shared_preferences: ^2.3.2
+  flutter_secure_storage: ^9.2.2
+
+  # Networking
+  http: ^1.2.1
+
+  # Data
+  csv: ^5.0.2
+  intl: ^0.20.0
+
+  # UI
+  fl_chart: ^0.68.0
+  url_launcher: ^6.3.0
+  cupertino_icons: ^1.0.8
+
+  # PDF
+  pdf: ^3.11.0
+  printing: ^5.13.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
